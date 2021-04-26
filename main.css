@@ -139,11 +139,11 @@ body {
 #pricing .card {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 	max-width: 300px;
 	border: 2px solid black;
-	margin: 30px;
+	margin: 10px;
 }
 
 #pricing .card__title {
@@ -157,25 +157,18 @@ body {
 	align-items: flex-start;
 }
 
-#pricing .card__img {
-	padding: 10px;
-}
-
 #pricing .card__img img {
 	max-width: 160px;
 	max-height: 160px;
 }
 
 #pricing .card__price {
-	padding: 20px;
 	font-size: 2rem;
 	font-weight: 900;
 }
 
 #pricing .card__description {
-	padding: 10px;
 	text-align: center;
-	min-height: 140px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -184,7 +177,6 @@ body {
 #pricing .card__btn {
 	width: 50%;
 	text-transform: uppercase;
-	padding: 0 20px;
 	height: 40px;
 	font-size: 1em;
 	margin: 20px;
@@ -195,6 +187,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
+	margin-top: 20px;
 }
 
 #footer .social {
