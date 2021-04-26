@@ -38,6 +38,7 @@ body {
 
 .logo {
 	width: 15%;
+	max-width: 150px;
 	height: auto;
 	margin: 20px;
 }
