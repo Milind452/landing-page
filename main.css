@@ -304,3 +304,17 @@ body {
 		display: none;
 	}
 }
+
+@media (max-width: 800px) {
+	.logo {
+		width: 18%;
+	}
+
+	#nav-bar {
+		font-size: 2vw;
+	}
+
+	.title {
+		margin-top: 150px;
+	}
+}
