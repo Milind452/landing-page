@@ -17,6 +17,9 @@ p, h2 {
 	justify-content: space-between;
 	align-items: center;
 	background-color: white;
+	position: fixed;
+	top: 0;
+	background-color: rgb(231, 229, 229);
 }
 
 .logo {
@@ -28,9 +31,12 @@ p, h2 {
 #nav-bar {
 	font-size: 2vw;
 	padding-right: 10px;
+	display: flex;
+	align-self: flex-end;
 }
 
 .nav-link {
+	justify-content: flex-end;
 	padding: 20px 10px 20px 10px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -40,6 +46,7 @@ p, h2 {
 
 .title {
 	text-align: center;
+	margin-top: 250px;
 }
 
 #form {
