@@ -21,6 +21,11 @@ body {
 	border-radius: 5px;
 }
 
+.btn:hover {
+	background-color: rgb(105, 105, 105);
+	color: rgb(231, 229, 229);
+}
+
 #header {
 	display: flex;
 	justify-content: space-between;
@@ -51,6 +56,11 @@ body {
 	text-transform: uppercase;
 	color: black;
 	font-weight: 600;
+}
+
+.nav-link:hover {
+	background-color: rgb(59, 58, 58);
+	color: rgb(231, 229, 229);
 }
 
 .title {
