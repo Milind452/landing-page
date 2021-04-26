@@ -37,13 +37,13 @@ body {
 }
 
 .logo {
-	width: 8%;
+	width: 15%;
 	height: auto;
 	margin: 20px;
 }
 
 #nav-bar {
-	font-size: 1.2vw;
+	font-size: 1.7vw;
 	padding-right: 10px;
 	display: flex;
 	align-self: flex-end;
