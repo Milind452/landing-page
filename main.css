@@ -62,3 +62,47 @@ img {
 	text-transform: uppercase;
 	padding: 5px;
 }
+
+.fa {
+	font-family: "Font Awesome 5 Free";
+	color: darkorange;
+}
+
+.container {
+	max-width: 80%;
+	margin: auto;
+}
+
+#features {
+	margin-top: 50px;
+}
+
+.grid {
+	display: flex;
+}
+
+.grid .icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20vw;
+	height: 125px;
+}
+
+.grid .description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 80vw;
+	height: 125px;
+	padding: 5px;
+	background-color: aqua;
+}
+
+.grid .description h2 {
+	background-color: brown;
+}
+
+.grid .description p {
+	background-color: pink;
+}
